@@ -1,0 +1,4 @@
+name: pulumi-aspnet-app
+runtime: nodejs
+description: A Pulumi project to deploy a Windows Server 2022 instance hosting an ASP.NET 3.5 application on Azure.
+stack: dev
