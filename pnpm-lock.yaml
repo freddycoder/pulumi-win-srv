@@ -593,8 +593,8 @@ packages:
     resolution: {integrity: sha512-gIXjKqtFuWEgzFRJA9WCQeSJLZDjgJUOMCMzxtvFq/37KojM1BFGufqsCy0r4qSQmYLsZYMeyRqzIWOMup03sw==}
     engines: {node: '>=14'}
 
-  form-data@2.5.3:
-    resolution: {integrity: sha512-XHIrMD0NpDrNM/Ckf7XJiBbLl57KEhT3+i3yY+eWm+cqYZJQTZrKo8Y8AWKnuV5GT4scfuUGt9LzNoIx3dU1nQ==}
+  form-data@2.5.5:
+    resolution: {integrity: sha512-jqdObeR2rxZZbPSGL+3VckHMYtu+f9//KXBsVny6JSX/pa38Fy+bGjuG8eW/H6USNQWhLi8Num++cU2yOCNz4A==}
     engines: {node: '>= 0.12'}
 
   fs-minipass@2.1.0:
@@ -1228,8 +1228,8 @@ packages:
     resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
     engines: {node: '>=10'}
 
-  tmp@0.2.3:
-    resolution: {integrity: sha512-nZD7m9iCPC5g0pYmcaxogYKggSfLsdxl8of3Q/oIbqCqLLIO9IAF0GWjX1z9NZRHPiXv8Wex4yDCaZsgEw0Y8w==}
+  tmp@0.2.4:
+    resolution: {integrity: sha512-UdiSoX6ypifLmrfQ/XfiawN6hkjSBpCjhKxxZcWlUUmoXLaCKQU0bx4HF/tdDK2uzRuchf1txGvrWBzYREssoQ==}
     engines: {node: '>=14.14'}
 
   tr46@0.0.3:
@@ -1443,7 +1443,7 @@ snapshots:
     dependencies:
       '@azure/core-auth': 1.9.0
       abort-controller: 3.0.0
-      form-data: 2.5.3
+      form-data: 2.5.5
       node-fetch: 2.7.0(encoding@0.1.13)
       tslib: 1.14.1
       tunnel: 0.0.6
@@ -1774,7 +1774,7 @@ snapshots:
       require-from-string: 2.0.2
       semver: 7.7.1
       source-map-support: 0.5.21
-      tmp: 0.2.3
+      tmp: 0.2.4
       upath: 1.2.0
     optionalDependencies:
       typescript: 5.8.3
@@ -2074,11 +2074,12 @@ snapshots:
       cross-spawn: 7.0.6
       signal-exit: 4.1.0
 
-  form-data@2.5.3:
+  form-data@2.5.5:
     dependencies:
       asynckit: 0.4.0
       combined-stream: 1.0.8
       es-set-tostringtag: 2.1.0
+      hasown: 2.0.2
       mime-types: 2.1.35
       safe-buffer: 5.2.1
 
@@ -2749,7 +2750,7 @@ snapshots:
       mkdirp: 1.0.4
       yallist: 4.0.0
 
-  tmp@0.2.3: {}
+  tmp@0.2.4: {}
 
   tr46@0.0.3: {}
 
