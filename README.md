@@ -12,6 +12,7 @@ Before you begin, ensure you have the following installed:
 - Pulumi CLI
 - Azure CLI
 - TypeScript
+- pnpm
 
 ## Project Structure
 
@@ -37,7 +38,7 @@ The project consists of the following files:
    Run the following command to install the required npm packages:
 
    ```bash
-   npm install
+   pnpm install
    ```
 
 3. **Configure Azure credentials:**
